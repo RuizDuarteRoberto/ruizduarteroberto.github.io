@@ -117,16 +117,16 @@ body {
 	@media screen and (max-width: $screen-md) {
 		font-size: 16px;
 	}
-	// color: rgba(255,255,255,.7);
-	// background: $brand-bg-color;
+	color: rgba(255,255,255,.7);
+	background: $brand-bg-color;
 
-	// background-size: cover;
-	// background-attachment: fixed;
-	// background-repeat: no-repeat;
-	// @media screen and (max-width: $screen-sm) {
-	// 	background-position: center center;
-	// 	background-repeat: no-repeat;
-	// }
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	@media screen and (max-width: $screen-sm) {
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
 	
 }
 a {
