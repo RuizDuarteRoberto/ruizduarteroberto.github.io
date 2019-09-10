@@ -1137,12 +1137,13 @@ body {
 	opacity: 1;
 	visibility: hidden;
 	padding: 20px;
-	background: rgba(255,255,255,.9);
+	// background: rgba(255,255,255,.9);
+	background: lightblue;
 	@include transition(.5s);
   	@media screen and (max-width: $screen-sm) {
   		opacity: 1;
 		visibility: visible;
-		background-color: white;
+		
   	}
   
 }
